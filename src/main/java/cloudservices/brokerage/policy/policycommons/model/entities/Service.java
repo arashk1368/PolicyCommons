@@ -5,16 +5,13 @@
 package cloudservices.brokerage.policy.policycommons.model.entities;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.Transient;
 
 /**
  * A service which can be a part of a plan or complete composition plan
@@ -34,6 +31,8 @@ public class Service extends UniObject implements Serializable {
     @Column
     private String servicesStr;
     @Column
+    private int numberOfServiceLevels;
+    @Column
     private String inputPropositions;
     @Column
     private int numberOfInputs;
@@ -45,14 +44,12 @@ public class Service extends UniObject implements Serializable {
     private Set<ServiceProposition> servicePropositions;
     @OneToMany(mappedBy = "service")
     private Set<PolicyService> policyServices;
-    @Transient
-    private List<Set<Service>> services;
 
     public Service() {
-        this.services = new ArrayList<>();
         this.servicePropositions = new HashSet<>();
         this.policyServices = new HashSet<>();
         servicesStr = "";
+        numberOfServiceLevels = 0;
         inputPropositions = "";
         outputPropositions = "";
         numberOfInputs = 0;
@@ -86,26 +83,19 @@ public class Service extends UniObject implements Serializable {
     }
 
     public boolean addServiceLevel(Set<Service> serviceLevel) {
-        boolean suc = services.add(serviceLevel);
-        if (suc) {
-            if (isComposite()) {
-                servicesStr += "-";
-            }
-            servicesStr += getServicesStr(serviceLevel);
+        String levelStr = getServicesStr(serviceLevel);
+        if (servicesStr.contains(levelStr)) {
+            return false;
         }
-        return suc;
+        if (numberOfServiceLevels > 0) {
+            servicesStr += "-";
+        }
+        servicesStr += levelStr;
+        return true;
     }
 
     public boolean isComposite() {
-        return levels() > 1 ? true : false;
-    }
-
-    public int levels() {
-        return this.services.size();
-    }
-
-    public Set<Service> getLevel(int level) {
-        return this.services.get(level);
+        return numberOfServiceLevels > 1 ? true : false;
     }
 
     public Long getId() {
@@ -160,6 +150,10 @@ public class Service extends UniObject implements Serializable {
 
     public int getNumberOfOutputs() {
         return numberOfOutputs;
+    }
+
+    public int getNumberOfServiceLevels() {
+        return numberOfServiceLevels;
     }
 
     private String getServicesStr(Set<Service> services) {

@@ -132,6 +132,12 @@ public class Service extends UniObject implements Serializable {
         return servicesStr;
     }
 
+    public void setServicesStr(String servicesStr) {
+        this.servicesStr = servicesStr;
+        String[] serviceLevels = servicesStr.split("-");
+        this.numberOfServiceLevels = serviceLevels.length;
+    }
+
     public Set<PolicyService> getPolicyServices() {
         return policyServices;
     }

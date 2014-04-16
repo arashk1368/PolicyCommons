@@ -60,6 +60,14 @@ public class ServiceProposition implements Serializable {
         }
     }
 
+    public boolean isInput() {
+        return this.type == ServicePropositionType.INPUT ? true : false;
+    }
+
+    public boolean isOutput() {
+        return this.type == ServicePropositionType.OUTPUT ? true : false;
+    }
+
     public Long getId() {
         return id;
     }

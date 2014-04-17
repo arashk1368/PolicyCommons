@@ -21,12 +21,13 @@ public class ServiceDAO extends BaseDAO {
     public Service getById(Long id) throws DAOException {
         Object o = super.getById(id, Service.class);
         if (o instanceof Service) {
-            return (Service) o;
+            Service service = (Service) o;
+            service.setUniId(id);
+            return service;
         } else {
             String msg = "Problem in reading service from Database";
             LOGGER.log(Level.SEVERE, msg);
             throw new DAOException(msg);
         }
     }
-    
 }

@@ -21,9 +21,11 @@ public class PropositionDAO extends BaseDAO {
     public Proposition getById(Long id) throws DAOException {
         Object o = super.getById(id, Proposition.class);
         if (o instanceof Proposition) {
-            return (Proposition) o;
+            Proposition prop = (Proposition) o;
+            prop.setUniId(id);
+            return prop;
         } else {
-            String msg="Problem in reading proposition from Database";
+            String msg = "Problem in reading proposition from Database";
             LOGGER.log(Level.SEVERE, msg);
             throw new DAOException(msg);
         }

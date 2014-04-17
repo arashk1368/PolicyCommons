@@ -29,7 +29,4 @@ public class PolicyDAO extends BaseDAO {
         }
     }
     
-    public Serializable save(Policy entity) throws DAOException {
-        return super.save(entity);
-    }
 }

@@ -94,14 +94,14 @@ public abstract class BaseDAO {
         return temp;
     }
 
-    protected Serializable save(Object entity) throws DAOException {
+    public Serializable save(Object entity) throws DAOException {
         startTransaction();
         Serializable temp = getSession().save(entity);
         commitTransaction();
         return temp;
     }
 
-    protected void saveOrUpdate(Object entity) throws DAOException {
+    public void saveOrUpdate(Object entity) throws DAOException {
         startTransaction();
         getSession().saveOrUpdate(entity);
         commitTransaction();

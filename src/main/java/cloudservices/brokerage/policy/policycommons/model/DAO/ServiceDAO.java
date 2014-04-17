@@ -28,8 +28,5 @@ public class ServiceDAO extends BaseDAO {
             throw new DAOException(msg);
         }
     }
-
-    public Serializable save(Service entity) throws DAOException {
-        return super.save(entity);
-    }
+    
 }

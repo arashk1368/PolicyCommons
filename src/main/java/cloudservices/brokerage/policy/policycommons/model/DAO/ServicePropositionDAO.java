@@ -29,7 +29,4 @@ public class ServicePropositionDAO extends BaseDAO {
         }
     }
 
-    public Serializable save(ServiceProposition entity) throws DAOException {
-        return super.save(entity);
-    }
 }

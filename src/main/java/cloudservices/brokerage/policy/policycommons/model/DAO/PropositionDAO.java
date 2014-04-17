@@ -28,8 +28,4 @@ public class PropositionDAO extends BaseDAO {
             throw new DAOException(msg);
         }
     }
-
-    public Serializable save(Proposition prop) throws DAOException {
-        return super.save(prop);
-    }
 }

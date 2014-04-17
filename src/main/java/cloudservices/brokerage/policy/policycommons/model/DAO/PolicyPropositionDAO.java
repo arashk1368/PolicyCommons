@@ -5,7 +5,6 @@
 package cloudservices.brokerage.policy.policycommons.model.DAO;
 
 import cloudservices.brokerage.policy.policycommons.model.entities.PolicyProposition;
-import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -29,7 +28,4 @@ public class PolicyPropositionDAO extends BaseDAO {
         }
     }
 
-    public Serializable save(PolicyProposition entity) throws DAOException {
-        return super.save(entity);
-    }
 }

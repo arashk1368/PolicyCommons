@@ -42,10 +42,6 @@ public abstract class BaseDAO {
         schema.create(true, true);
     }
 
-    public static void openSession() {
-        session = HibernateUtil.getSessionFactory().openSession();
-    }
-
     public static void openSession(Configuration config) {
         HibernateUtil.buildSessionFactory(config);
         session = HibernateUtil.getSessionFactory().openSession();

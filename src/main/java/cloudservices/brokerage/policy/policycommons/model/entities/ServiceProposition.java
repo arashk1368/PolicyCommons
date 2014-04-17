@@ -36,7 +36,7 @@ public class ServiceProposition implements Serializable {
     public ServiceProposition() {
     }
 
-    protected boolean addInputToService(Service service, Proposition input) {
+    public boolean addInputToService(Service service, Proposition input) {
         boolean result = service.addInput(input);
         if (!result) {
             return false;
@@ -48,7 +48,7 @@ public class ServiceProposition implements Serializable {
         }
     }
 
-    protected boolean addOutputToService(Service service, Proposition output) {
+    public boolean addOutputToService(Service service, Proposition output) {
         boolean result = service.addOutput(output);
         if (!result) {
             return false;

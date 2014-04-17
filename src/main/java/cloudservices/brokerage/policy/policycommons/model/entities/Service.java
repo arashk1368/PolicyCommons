@@ -84,13 +84,14 @@ public class Service extends UniObject implements Serializable {
 
     public boolean addServiceLevel(Set<Service> serviceLevel) {
         String levelStr = getServicesStr(serviceLevel);
-        if (servicesStr.contains(levelStr)) {
-            return false;
-        }
+//        if (servicesStr.contains(levelStr)) {
+//            return false;
+//        }
         if (numberOfServiceLevels > 0) {
             servicesStr += "-";
         }
         servicesStr += levelStr;
+        numberOfServiceLevels++;
         return true;
     }
 

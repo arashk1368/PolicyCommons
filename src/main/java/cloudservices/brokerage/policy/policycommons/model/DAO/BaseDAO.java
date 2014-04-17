@@ -6,13 +6,18 @@ package cloudservices.brokerage.policy.policycommons.model.DAO;
 
 import cloudservices.brokerage.policy.policycommons.utils.db_utils.HibernateUtil;
 import java.io.Serializable;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.tool.hbm2ddl.SchemaExport;
 
 /**
  *
-* @author Arash Khodadadi http://www.arashkhodadadi.com/  
+ * @author Arash Khodadadi http://www.arashkhodadadi.com/
  */
 public abstract class BaseDAO {
 
@@ -21,7 +26,28 @@ public abstract class BaseDAO {
     public BaseDAO() {
     }
 
+    public static void createDatabase(Configuration config, String dbName)
+            throws ClassNotFoundException, SQLException {
+        Class.forName(config.getProperty("hibernate.connection.driver_class"));
+        Connection con = DriverManager.getConnection(config.getProperty("hibernate.connection.url"),
+                config.getProperty("hibernate.connection.username"),
+                config.getProperty("hibernate.connection.password"));
+        con.createStatement().executeUpdate("DROP DATABASE IF EXISTS " + dbName);
+        con.createStatement().executeUpdate("CREATE DATABASE " + dbName);
+
+        String url = config.getProperty("hibernate.connection.url");
+        config.setProperty("hibernate.connection.url", url + dbName);
+        openSession(config);
+        SchemaExport schema = new SchemaExport(config);
+        schema.create(true, true);
+    }
+
     public static void openSession() {
+        session = HibernateUtil.getSessionFactory().openSession();
+    }
+
+    public static void openSession(Configuration config) {
+        HibernateUtil.buildSessionFactory(config);
         session = HibernateUtil.getSessionFactory().openSession();
     }
 

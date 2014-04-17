@@ -21,7 +21,6 @@ public class PolicyDAO extends BaseDAO {
         Object o = super.getById(id, Policy.class);
         if (o instanceof Policy) {
             Policy policy = (Policy) o;
-            policy.setUniId(id);
             return policy;
         } else {
             String msg = "Problem in reading policy from Database";

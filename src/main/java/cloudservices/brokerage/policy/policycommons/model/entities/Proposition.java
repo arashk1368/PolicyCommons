@@ -18,7 +18,7 @@ import javax.persistence.OneToMany;
  * @author Arash Khodadadi http://www.arashkhodadadi.com/
  */
 @Entity
-public class Proposition extends UniObject implements Serializable {
+public class Proposition implements Serializable {
 
     @Id
     @GeneratedValue
@@ -43,7 +43,6 @@ public class Proposition extends UniObject implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-        super.setUniId(id);
     }
 
     public boolean isValid() {
@@ -60,7 +59,6 @@ public class Proposition extends UniObject implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-        super.setUniName(name);
     }
 
     public Set<ServiceProposition> getServicePropositions() {

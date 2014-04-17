@@ -12,15 +12,13 @@ import java.util.Set;
  *
  * @author Arash Khodadadi http://www.arashkhodadadi.com/
  */
-public class State extends UniObject {
+public class State {
 
     private int number;
     private Set<Proposition> propositions;
     private HashMap<String,Object> params;
 
     public State() {
-        super.setUniId((long) number);
-        super.setUniName("state");
         this.propositions = new HashSet<>();
         this.params=new HashMap<>();
     }
@@ -47,7 +45,6 @@ public class State extends UniObject {
 
     public void setNumber(int number) {
         this.number = number;
-        super.setUniId((long) number);
     }
 
     public Set<Proposition> getPropositions() {

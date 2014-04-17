@@ -5,7 +5,6 @@
 package cloudservices.brokerage.policy.policycommons.model.DAO;
 
 import cloudservices.brokerage.policy.policycommons.model.entities.Service;
-import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -22,7 +21,6 @@ public class ServiceDAO extends BaseDAO {
         Object o = super.getById(id, Service.class);
         if (o instanceof Service) {
             Service service = (Service) o;
-            service.setUniId(id);
             return service;
         } else {
             String msg = "Problem in reading service from Database";

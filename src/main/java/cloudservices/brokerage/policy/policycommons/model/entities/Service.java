@@ -19,7 +19,7 @@ import javax.persistence.OneToMany;
  * @author Arash Khodadadi http://www.arashkhodadadi.com/
  */
 @Entity
-public class Service extends UniObject implements Serializable {
+public class Service implements Serializable {
 
     @Id
     @GeneratedValue
@@ -105,7 +105,6 @@ public class Service extends UniObject implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-        super.setUniId(id);
     }
 
     public String getName() {
@@ -114,7 +113,6 @@ public class Service extends UniObject implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-        super.setUniName(name);
     }
 
     public String getWSDLURL() {
@@ -173,5 +171,14 @@ public class Service extends UniObject implements Serializable {
             str = str.substring(0, str.length() - 1);
         }
         return str;
+    }
+
+    public boolean equals(Service service) {
+        if (service.getId().compareTo(this.getId()) == 0
+                && service.getName().compareTo(this.getName()) == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

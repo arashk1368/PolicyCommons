@@ -75,7 +75,7 @@ public abstract class BaseDAO {
         return session;
     }
 
-    private List getAll(String className) throws DAOException {
+    public List getAll(String className) throws DAOException {
         startTransaction();
         Query query = getSession().createQuery("from " + className);
         List temp = query.list();

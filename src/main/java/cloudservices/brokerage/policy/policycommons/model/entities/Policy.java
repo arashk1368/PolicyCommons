@@ -18,7 +18,7 @@ import javax.persistence.OneToMany;
  * @author Arash Khodadadi http://www.arashkhodadadi.com/
  */
 @Entity
-public class Policy extends UniObject implements Serializable {
+public class Policy implements Serializable {
 
     @Id
     @GeneratedValue
@@ -101,7 +101,6 @@ public class Policy extends UniObject implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-        super.setUniId(id);
     }
 
     public int getPriority() {
@@ -150,7 +149,6 @@ public class Policy extends UniObject implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-        super.setUniName(name);
     }
     
     

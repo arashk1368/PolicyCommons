@@ -5,6 +5,9 @@
 package cloudservices.brokerage.policy.policycommons.model.DAO;
 
 import cloudservices.brokerage.policy.policycommons.model.entities.Policy;
+import java.io.Serializable;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -12,12 +15,21 @@ import cloudservices.brokerage.policy.policycommons.model.entities.Policy;
  */
 public class PolicyDAO extends BaseDAO {
 
-    public Policy getServiceById(Long id) throws DAOException {
+    private final static Logger LOGGER = Logger.getLogger(PolicyDAO.class
+            .getName());
+
+    public Policy getById(Long id) throws DAOException {
         Object o = super.getById(id, Policy.class);
         if (o instanceof Policy) {
             return (Policy) o;
         } else {
-            return null;
+            String msg = "Problem in reading policy from Database";
+            LOGGER.log(Level.SEVERE, msg);
+            throw new DAOException(msg);
         }
+    }
+    
+    public Serializable save(Policy entity) throws DAOException {
+        return super.save(entity);
     }
 }

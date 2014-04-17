@@ -65,5 +65,9 @@ public class State extends UniObject {
     public void setParams(HashMap<String, Object> params) {
         this.params = params;
     }
+
+    public Object getParam(String key) {
+        return this.params.get(key);
+    }
     
 }

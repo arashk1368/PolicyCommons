@@ -6,6 +6,7 @@ package cloudservices.brokerage.policy.policycommons.model.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -173,12 +174,26 @@ public class Service implements Serializable {
         return str;
     }
 
-    public boolean equals(Service service) {
-        if (service.getId().compareTo(this.getId()) == 0
-                && service.getName().compareTo(this.getName()) == 0) {
-            return true;
+    @Override
+    public boolean equals(Object o) {
+        if (Service.class.isAssignableFrom(o.getClass())) {
+            Service testService = (Service) o;
+            return testService.getId().compareTo(this.getId()) == 0
+                    && testService.getName().compareTo(this.getName()) == 0;
         } else {
-            return false;
+            return this.toString().equals(o);
         }
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        if (this.id != null) {
+            hash = 89 * hash + Objects.hashCode(this.id);
+        }
+        if (this.name != null) {
+            hash = 89 * hash + Objects.hashCode(this.name);
+        }
+        return hash;
     }
 }

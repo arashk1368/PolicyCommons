@@ -5,8 +5,10 @@
 package cloudservices.brokerage.policy.policycommons.model.DAO;
 
 import cloudservices.brokerage.policy.policycommons.model.entities.Policy;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.hibernate.Query;
 
 /**
  *
@@ -27,5 +29,17 @@ public class PolicyDAO extends BaseDAO {
             LOGGER.log(Level.SEVERE, msg);
             throw new DAOException(msg);
         }
+    }
+    
+    public Policy getByName(String name) throws DAOException {
+        Query query = super.getSession().createQuery("from Policy where name = :para1 ");
+        query.setParameter("para1", name);
+        List list = query.list();
+        if (list.isEmpty()) {
+            return null;
+        } else {
+            return (Policy) list.get(0);
+        }
+
     }
 }

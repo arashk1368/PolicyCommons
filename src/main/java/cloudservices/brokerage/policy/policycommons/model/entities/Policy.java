@@ -6,6 +6,7 @@ package cloudservices.brokerage.policy.policycommons.model.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -18,7 +19,7 @@ import javax.persistence.OneToMany;
  * @author Arash Khodadadi http://www.arashkhodadadi.com/
  */
 @Entity
-public class Policy implements Serializable {
+public class Policy implements Serializable, Comparable<Policy> {
 
     @Id
     @GeneratedValue
@@ -43,19 +44,18 @@ public class Policy implements Serializable {
     private Set<PolicyProposition> policyPropositions;
     @OneToMany(mappedBy = "policy")
     private Set<PolicyService> policyServices;
-    
 
     public Policy() {
-        policyPropositions=new HashSet<>();
-        policyServices=new HashSet<>();
-        events="";
-        numberOfEvents=0;
-        conditions="";
-        numberOfConditions=0;
-        actions="";
-        numberOfActions=0;
+        policyPropositions = new HashSet<>();
+        policyServices = new HashSet<>();
+        events = "";
+        numberOfEvents = 0;
+        conditions = "";
+        numberOfConditions = 0;
+        actions = "";
+        numberOfActions = 0;
     }
-    
+
     protected boolean addEvent(Proposition prop) {
         String eventStr = prop.getName() + "-" + prop.getId();
         if (events.contains(eventStr)) {
@@ -68,7 +68,7 @@ public class Policy implements Serializable {
         numberOfEvents++;
         return true;
     }
-    
+
     protected boolean addCondition(Proposition prop) {
         String conditionStr = prop.getName() + "-" + prop.getId();
         if (conditions.contains(conditionStr)) {
@@ -81,7 +81,7 @@ public class Policy implements Serializable {
         numberOfConditions++;
         return true;
     }
-    
+
     protected boolean addAction(Service service) {
         String serviceStr = service.getName() + "-" + service.getId();
         if (actions.contains(serviceStr)) {
@@ -150,6 +150,36 @@ public class Policy implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
-    
-    
+
+    @Override
+    public boolean equals(Object o) {
+        if (Policy.class.isAssignableFrom(o.getClass())) {
+            Policy test = (Policy) o;
+            return test.getId().compareTo(this.getId()) == 0
+                    && test.getName().compareTo(this.getName()) == 0;
+        } else {
+            return this.toString().equals(o);
+        }
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        if (this.id != null) {
+            hash = 89 * hash + Objects.hashCode(this.id);
+        }
+        if (this.name != null) {
+            hash = 89 * hash + Objects.hashCode(this.name);
+        }
+        return hash;
+    }
+
+    @Override
+    public int compareTo(Policy o) {
+        if (o.equals(this)) {
+            return 0;
+        } else {
+            return this.priority < o.getPriority() ? -1 : this.priority > o.getPriority() ? 1 : 0;
+        }
+    }
 }

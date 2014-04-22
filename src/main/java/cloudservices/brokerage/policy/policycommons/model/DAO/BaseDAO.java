@@ -102,4 +102,18 @@ public abstract class BaseDAO {
         getSession().saveOrUpdate(entity);
         commitTransaction();
     }
+
+    public void load(Object entity, Serializable Id) throws DAOException {
+        startTransaction();
+        getSession().load(entity, Id);
+        commitTransaction();
+    }
+
+    public Object load(Class type, Serializable Id) throws DAOException {
+        startTransaction();
+        Object temp = getSession().load(type, Id);
+        commitTransaction();
+        return temp;
+    }
+    
 }

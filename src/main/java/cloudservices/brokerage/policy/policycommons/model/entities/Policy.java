@@ -152,7 +152,7 @@ public class Policy implements Serializable, Comparable<Policy> {
     }
 
     public boolean isValid() {
-        return this.priority == -1;
+        return this.priority != -1;
     }
 
     @Override

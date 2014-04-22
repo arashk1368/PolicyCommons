@@ -56,6 +56,13 @@ public class Service implements Serializable {
         numberOfInputs = 0;
         numberOfOutputs = 0;
     }
+    
+    public Service(String servicesStr){
+        this();
+        setServicesStr(servicesStr);
+        setId(-1L);
+        setName("TEMP");
+    }
 
     protected boolean addInput(Proposition prop) {
         String inputStr = prop.getName() + "-" + prop.getId();

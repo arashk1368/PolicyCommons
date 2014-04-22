@@ -4,7 +4,7 @@
  */
 package cloudservices.brokerage.policy.policycommons.model.entities;
 
-import cloudservices.brokerage.policy.model.enums.ServicePropositionType;
+import cloudservices.brokerage.policy.policycommons.model.enums.ServicePropositionType;
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

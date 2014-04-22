@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package cloudservices.brokerage.policy.model.enums;
+package cloudservices.brokerage.policy.policycommons.model.enums;
 
 /**
  *

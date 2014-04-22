@@ -55,15 +55,10 @@ public class Service implements Serializable {
         outputPropositions = "";
         numberOfInputs = 0;
         numberOfOutputs = 0;
+        this.id=-1L;
+        this.name="TEMP";
     }
     
-    public Service(String servicesStr){
-        this();
-        setServicesStr(servicesStr);
-        setId(-1L);
-        setName("TEMP");
-    }
-
     protected boolean addInput(Proposition prop) {
         String inputStr = prop.getName() + "-" + prop.getId();
         if (inputPropositions.contains(inputStr)) {

@@ -151,6 +151,10 @@ public class Policy implements Serializable, Comparable<Policy> {
         this.name = name;
     }
 
+    public boolean isValid() {
+        return this.priority == -1;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (Policy.class.isAssignableFrom(o.getClass())) {

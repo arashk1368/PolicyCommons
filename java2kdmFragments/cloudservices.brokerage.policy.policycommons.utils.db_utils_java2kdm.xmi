@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ASCII"?>
+<javaapplication:Java2File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <file href="../PolicyCommons_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.14/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1/@inventoryElement.0/@inventoryElement.0"/>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="1" startPosition="0" endLine="4" endPosition="102">
+    <node href="../PolicyCommons_java.xmi#//@compilationUnits.18/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="7" startPosition="176" endLine="7" endPosition="207">
+    <node href="../PolicyCommons_java.xmi#//@compilationUnits.18/@imports.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="8" startPosition="209" endLine="8" endPosition="241">
+    <node href="../PolicyCommons_java.xmi#//@compilationUnits.18/@imports.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="9" startPosition="243" endLine="9" endPosition="279">
+    <node href="../PolicyCommons_java.xmi#//@compilationUnits.18/@imports.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="10" startPosition="281" endLine="10" endPosition="320">
+    <node href="../PolicyCommons_java.xmi#//@compilationUnits.18/@imports.3"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="324" endLine="38" endPosition="1166">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="12" startPosition="324" endLine="16" endPosition="424">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="332" endLine="14" endPosition="415">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@comments.0/@tags.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="13" startPosition="332" endLine="13" endPosition="403">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@comments.0/@tags.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="14" startPosition="408" endLine="14" endPosition="415">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@comments.0/@tags.0/@fragments.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="462" endLine="19" endPosition="507">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="477" endLine="19" endPosition="491">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="477" endLine="19" endPosition="491">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="19" startPosition="492" endLine="19" endPosition="506">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="515" endLine="33" endPosition="1066">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="529" endLine="21" endPosition="533">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@returnType"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="554" endLine="21" endPosition="567">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@parameters.0/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="554" endLine="21" endPosition="574">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@parameters.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="554" endLine="21" endPosition="567">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@parameters.0/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="576" endLine="33" endPosition="1066">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="587" endLine="32" endPosition="1059">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="591" endLine="27" endPosition="747">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="606" endLine="23" endPosition="638">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="652" endLine="25" endPosition="734">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="652" endLine="24" endPosition="680">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@expression/@leftHandSide"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="652" endLine="25" endPosition="733">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="652" endLine="24" endPosition="665">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@expression/@leftHandSide/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="666" endLine="24" endPosition="680">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@expression/@leftHandSide"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="683" endLine="25" endPosition="733">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@expression/@rightHandSide"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="683" endLine="24" endPosition="689">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@body/@statements.0/@expression/@rightHandSide/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="748" endLine="32" endPosition="1059">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="755" endLine="27" endPosition="767">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@exception"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="755" endLine="27" endPosition="764">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@exception/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="755" endLine="27" endPosition="764">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@exception/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="769" endLine="32" endPosition="1059">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="784" endLine="28" endPosition="844">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="858" endLine="30" endPosition="991">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="858" endLine="30" endPosition="992">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="858" endLine="29" endPosition="864">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="858" endLine="29" endPosition="905">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="875" endLine="29" endPosition="888">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@expression/@arguments.0/@expression/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="875" endLine="29" endPosition="904">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="875" endLine="29" endPosition="888">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@expression/@arguments.0/@expression/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="875" endLine="29" endPosition="894">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@expression/@arguments.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="910" endLine="29" endPosition="915">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@arguments.0/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="910" endLine="29" endPosition="922">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="29" startPosition="916" endLine="29" endPosition="922">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="30" startPosition="945" endLine="30" endPosition="986">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@arguments.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="30" startPosition="988" endLine="30" endPosition="990">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.0/@expression/@arguments.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="31" startPosition="1006" endLine="31" endPosition="1048">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="31" startPosition="1012" endLine="31" endPosition="1047">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.1/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="31" startPosition="1016" endLine="31" endPosition="1043">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.1/@expression/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="31" startPosition="1016" endLine="31" endPosition="1043">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.1/@expression/@type"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="31" startPosition="1044" endLine="31" endPosition="1046">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@catchClauses.0/@body/@statements.1/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="1074" endLine="37" endPosition="1163">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="1088" endLine="35" endPosition="1102">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@returnType"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="1088" endLine="35" endPosition="1102">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@returnType"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="35" startPosition="1123" endLine="37" endPosition="1163">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="36" startPosition="1134" endLine="36" endPosition="1156">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="36" startPosition="1141" endLine="36" endPosition="1155">
+    <node href="../PolicyCommons_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1/@ownedPackages.0/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression"/>
+  </children>
+  <unit href="../PolicyCommons_java.xmi#//@compilationUnits.18"/>
+  <parent href="Package2Directory_java2kdm.xmi#/4"/>
+</javaapplication:Java2File>
